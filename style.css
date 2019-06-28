@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  background-color: #dddada;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1440px; 
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0, auto;
+  height: 796px;
+}
+
+.head__box, .voucher__box {
+  width: 90%;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.head {
+  display: flex;
+  justify-content: center;  
+  width: 100%;
+  align-items: center;
+  height: 60px;
+  -webkit-box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.4); 
+  box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.4);
+  background-color: #ffffff;
+  position: relative;
+  
+}
+
+.logo {
+  font-size: 40px;
+  color: #C2CFE0;
+  padding-top: 4px;
+}
+
+.padding{
+  padding-top: 5px;
+}
+
+.head__right {
+  display: flex;
+  justify-content: space-around;  
+}
+
+.head__unit {
+  display: flex; 
+  justify-content: flex-end; 
+}
+
+.unit__img {
+  border-radius: 50%;
+  width: 15%;
+  padding-right: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.main__voucher {
+  background-color: #ffffff;  
+  height: 733px;
+  width: 300px; 
+  -webkit-box-shadow: 11px 0px 13px 0px rgba(0,0,0,0.22); 
+box-shadow: 11px 0px 13px 0px rgba(0,0,0,0.22); 
+}
+
+.option__text {
+  display: flex;
+}
+
+.option__img {
+  width: 100px;
+  background-color: blue;   
+}
+
+.option__img:hover {  
+  background-color: rgb(255, 0, 140);   
+}
+
+.voucher__card {
+  background-color: #ffffff;
+  width: 1040px;
+  margin: 20px 0 0 20px;
+}
+
+.voucher__card__left{
+  width: 490px;
+}
+
+.card__container{
+  display: flex;
+}
+
+.main__footer {
+  display: flex;
+}
+
+.pay__img {
+  width: 100px;
+  background-color: #C2CFE0
+}
