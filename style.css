@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color: #dddada;
+  background-color: #eeeeee;
   display: flex;
   justify-content: center;
   font-family: 'Ubuntu', sans-serif;
@@ -8,7 +8,7 @@ body {
 
 a{
   text-decoration: none;
-  color: #bebebe;
+  color: #bebebe;  
 }
 
 .wrapper {
@@ -39,9 +39,9 @@ a{
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 30px;
   color: #C2CFE0;
-  padding-top: 4px;
+  padding: 10px 0 0 30px;
 }
 
 .padding{
@@ -54,7 +54,7 @@ a{
 }
 
 .suport__text, .unit__status, .left__paragraf, .right__paragraf, .voucher__licenze, .footer__link{
-  font-size: 20px;
+  font-size: 13px;
   color: #bebebe
 }
 
@@ -75,25 +75,44 @@ a{
 }
 
 
-.main__voucher {
+.main__voucher {  
   background-color: #ffffff;  
   height: 733px;
   width: 300px; 
   -webkit-box-shadow: 11px 0px 13px 0px rgba(0,0,0,0.22); 
-box-shadow: 11px 0px 13px 0px rgba(0,0,0,0.22); 
+  box-shadow: 11px 0px 13px 0px rgba(0,0,0,0.22); 
+}
+
+.voucher__option {
+  width: 250px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .option__text {
   display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0 20px 30px;
 }
 
 .option__img {
-  width: 100px;
-  background-color: blue;   
+  width: 20px;
+  background-color: #bebebe  
 }
 
-.option__img:hover {  
-  background-color: rgb(255, 0, 140);   
+.option__buy, .option__activate, .option__myVoucher, .option__history {
+  color: #bebebe;
+  font-size: 13px;
+  padding-left: 13px;
+}
+
+.option--hover:hover{
+  color: #109CF1
+}
+
+.option__img:hover {
+  background-color:  #109CF1;
 }
 
 .voucher__card {
@@ -103,20 +122,37 @@ box-shadow: 11px 0px 13px 0px rgba(0,0,0,0.22);
 }
 
 .voucher__card__left{
-  width: 490px;
+  width: 290px;
   padding: 64px;
 }
 
 .card__headline {
   font-size: 35px;
+
 }
 
 .card__container{
   display: flex;
+  margin-top: 20px;
+}
+
+.container__right {
+  padding-left: 20px;
+}
+
+.card__button {
+  width: 296px;
+  height: 42px;
+  background-color: #109CF1;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 15px;
 }
 
 .main__footer {
   display: flex;
+  position: absolute;
+  bottom: 30px;
 }
 
 .pay__img {
