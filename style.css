@@ -8,12 +8,17 @@ body {
 
 a{
   text-decoration: none;
-  color: #bebebe;  
+  color: #90A0B7; 
+  
+}
+
+.licenze--title {
+  border-bottom: 1px solid #90A0B7; 
 }
 
 .wrapper {
-  width: 1440px; 
-  border: 1px solid black;
+  max-width: 1440px;
+  width: 100%;   
   box-sizing: border-box;
   margin: 0, auto;
   height: 796px;
@@ -53,9 +58,9 @@ a{
   justify-content: space-around;  
 }
 
-.suport__text, .unit__status, .left__paragraf, .right__paragraf, .voucher__licenze, .footer__link{
+.suport__text, .unit__status, .voucher__licenze, .footer__link{
   font-size: 13px;
-  color: #bebebe
+  color: #90A0B7;
 }
 
 .head__unit {
@@ -74,7 +79,6 @@ a{
   justify-content: center;
 }
 
-
 .main__voucher {  
   background-color: #ffffff;  
   height: 733px;
@@ -86,7 +90,7 @@ a{
 .voucher__option {
   width: 250px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .option__text {
@@ -98,27 +102,33 @@ a{
 
 .option__img {
   width: 20px;
-  background-color: #bebebe  
+  background-color: #90A0B7; 
 }
 
 .option__buy, .option__activate, .option__myVoucher, .option__history {
-  color: #bebebe;
+  color: #90A0B7;
   font-size: 13px;
   padding-left: 13px;
 }
 
-.option--hover:hover{
-  color: #109CF1
+.option__text:hover .option--hover  {
+  color: #109CF1;
 }
 
-.option__img:hover {
+.option__text:hover .option__img {
   background-color:  #109CF1;
 }
 
+.main__voucher__card {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 100%
+}
+
 .voucher__card {
-  background-color: #ffffff;
-  width: 1040px;
-  margin: 20px 0 0 20px;
+  background-color: #ffffff;  
+  margin: 20px 20px 0 20px;
 }
 
 .voucher__card__left{
@@ -127,7 +137,7 @@ a{
 }
 
 .card__headline {
-  font-size: 35px;
+  font-size: 30px;
 
 }
 
@@ -136,8 +146,45 @@ a{
   margin-top: 20px;
 }
 
+.container__left {
+  width: 65%;
+}
+
 .container__right {
-  padding-left: 20px;
+  padding-left: 8px;
+  width: 35%;
+}
+
+.left__paragraf , .left__price {
+  font-size: 11px;
+  color: #90A0B7;
+}
+
+span {
+  color: #90A0B7;
+}
+
+.right__paragraf, .right__currency {
+  font-size: 11px;
+  color: #90A0B7;
+}
+
+.money {
+  border-bottom: 1px solid  #90A0B7;
+  padding-top: 5px;
+}
+
+.precent {
+  font-size: 11px;
+  padding-left: 60%;
+}
+
+.left__paragraf, .bill, .precent{
+ padding-top: 15px;
+}
+
+.bill {
+  color: #109CF1;
 }
 
 .card__button {
@@ -147,15 +194,33 @@ a{
   border-radius: 4px;
   color: #ffffff;
   font-size: 15px;
+  margin-top: 13px;
+}
+
+.voucher__licenze{
+  text-align: center;
+  margin-top: 13px;
 }
 
 .main__footer {
   display: flex;
-  position: absolute;
-  bottom: 30px;
+  justify-content: space-around;
+  align-items: center;  
 }
 
+.padding--left {
+  padding-left: 13px
+}
 .pay__img {
-  width: 100px;
-  background-color: #C2CFE0
+  width: 50px; 
+  padding-left: 13px; 
+}
+
+.footer__language {
+  display: flex;
+  color: #90A0B7;  
+}
+
+.footer__language>p:hover {
+  color: #109CF1;
 }
