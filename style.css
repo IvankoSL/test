@@ -54,8 +54,7 @@ a{
 }
 
 .head__right {
-  display: flex;
-  justify-content: space-around;  
+  display: flex;ß    
 }
 
 .suport__text, .unit__status, .voucher__licenze, .footer__link{
@@ -218,7 +217,8 @@ span {
 
 .footer__language {
   display: flex;
-  color: #90A0B7;  
+  color: #90A0B7;
+  font-size: 13px;  
 }
 
 .footer__language>p:hover {
